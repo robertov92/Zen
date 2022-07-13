@@ -1,0 +1,185 @@
+h2,
+h3,
+h4 {
+  font-family: "Impact";
+  margin: 0;
+}
+
+h1 {
+  background: #ea2e49;
+  color: rgb(158, 207, 22);
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+}
+
+h2 {
+  color: rgb(248, 241, 241);
+  font-weight: 900;
+  /* Heavy */
+  font-size: 6em;
+  letter-spacing: 1px;
+  line-height: 1em;
+}
+
+h3 {
+  font-size: 2.25em;
+  font-weight: 200;
+  /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: 0.5em 0 0.25em 0;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 200;
+  /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  margin: 0.5em 0;
+}
+
+p {
+  font-family: verdana, arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 0.5em 0;
+  margin: 0;
+}
+
+a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgb(238, 255, 1);
+  text-decoration: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+a:hover {
+  border-color: #ea2e49;
+}
+
+
+[role=banner] > h1 {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(248, 241, 241);
+}
+
+.main-supporting{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.summary {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(248, 241, 241);
+  padding: 15% 0;
+}
+.summary p:last-child {
+  border-top: 1px solid #ea2e49;
+  margin-top: 1em;
+  padding-top: 1.5em;
+}
+.summary a {
+  color: rgb(205, 250, 7);
+}
+
+.preamble {
+  background: url(board2.svg);
+  color: rgb(253, 253, 253);
+  padding: 5% 5% 5% 30%;
+  margin-left: -30%;
+  
+  
+}
+
+.preamble:hover{
+  filter: drop-shadow(16px 16px 20px rgb(114, 238, 12)) invert(75%);
+}
+
+
+.explanation{
+  width: 50rem;
+  grid-column: 1/1;
+  background: url(board2.svg);
+  padding: 5% 5% 5% 5%;
+}
+
+.participation{
+  width: 50rem;
+  grid-column: 2/2;
+  background: url(board2.svg);
+  padding: 5% 5% 5% 5%;
+}
+
+.benefits{
+  width: 50rem;
+  grid-column: 1/2;
+  background: url(board2.svg);
+  padding: 10% 5% 1% 20%;
+}
+
+.requirements{
+  width: 50rem;
+  grid-column: 2/2;
+  background: url(board2.svg);
+  padding: 7% 10% 10% 20%;
+}
+
+.explanation:hover{
+  filter: drop-shadow(16px 16px 20px rgb(114, 238, 12)) invert(75%);
+}
+
+.participation:hover{
+  filter: drop-shadow(16px 16px 20px rgb(88, 49, 5)) invert(80%);
+}
+
+.benefits:hover{
+  filter: drop-shadow(16px 16px 20px rgb(68, 58, 112)) invert(200%);
+}
+
+.requirements:hover{
+  filter: drop-shadow(16px 16px 20px rgb(238, 12, 12)) invert(93%);
+}
+
+
+.intro {
+  padding: 5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+  padding: 5%;
+}
+
+body {
+  font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+  font-size: 85%;
+  color: rgb(253, 253, 253);
+  background-image: url(robot.svg);
+  margin: 0;
+  padding: 1em;
+}
+
+footer{
+  text-align: center;
+  font-size: 50px;
+}
+
+.sidebar{
+  font-display: inline;
+  text-align: center inline;
+  background: url(board2.svg);
+  padding: 5% 5% 5% 30%;
+}
+/*# sourceMappingURL=style.css.map */

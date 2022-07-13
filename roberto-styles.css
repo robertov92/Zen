@@ -1,0 +1,84 @@
+h2,
+h3,
+p,
+a {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media only screen and (max-width: 800px) {
+  p {
+    font-size: 1.5rem;
+  }
+  .intro {
+    padding: 0;
+  }
+  .main-supporting {
+    display: block;
+  }
+
+  .explanation,
+  .participation,
+  .benefits,
+  .requirements,
+  .sidebar,
+  .preamble {
+    max-width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 5%;
+    margin: 50px 0;
+  }
+  .preamble {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .intro {
+    padding: 0 5% 5% 5%;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+  .preamble {
+    margin-left: 0;
+  }
+  .main-supporting {
+    grid-gap: 2%;
+    margin-bottom: 50px;
+  }
+  .explanation,
+  .participation,
+  .benefits,
+  .requirements,
+  .sidebar,
+  .preamble {
+    width: 100%;
+    padding: 5%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+}
+
+p {
+  font-size: 1.2rem;
+}
+.intro {
+  padding: 0 5% 5% 5%;
+}
+.summary {
+  padding: 7% 0;
+}
+.main-supporting {
+  grid-gap: 2%;
+  margin-bottom: 50px;
+}
+.explanation,
+.participation,
+.benefits,
+.requirements,
+.sidebar {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5%;
+}
